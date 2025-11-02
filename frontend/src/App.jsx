@@ -7,7 +7,7 @@ import Login from './routes/Login';
 
 function App() {
   return (
-    <section className="bg-white min-h-screen">
+    <section className="bg-neutral-900 min-h-screen">
       <BrowserRouter>
         <Header />
         <main>
