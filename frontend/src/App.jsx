@@ -8,17 +8,17 @@ import Login from './routes/Login';
 function App() {
   return (
     <section className="bg-white min-h-screen">
-      <Header />    
-      <main>
-        <BrowserRouter>
+      <BrowserRouter>
+        <Header />
+        <main>
           <Routes>
-            <Route path='/' element={<Home />}/>
-            <Route path='/sobre' element={<Sobre />}/>
-            <Route path='/produtos' element={<Produtos />}/>
-            <Route path='/login' element={<Login />}/>
+            <Route path='/' element={<Home />} />
+            <Route path='/sobre' element={<Sobre />} />
+            <Route path='/produtos' element={<Produtos />} />
+            <Route path='/login' element={<Login />} />
           </Routes>
-        </BrowserRouter>
-      </main>  
+        </main>
+      </BrowserRouter>
     </section>
   )
 }
